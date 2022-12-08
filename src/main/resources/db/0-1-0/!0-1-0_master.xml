@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <include file="db/0-1-0/01_create-table_account.xml"/>
+    <include file="db/0-1-0/02_insert_test-data.xml"/>
+    <include file="db/0-1-0/03_create-table_message.xml"/>
+    <include file="db/0-1-0/04_insert_test-data.xml"/>
+</databaseChangeLog>
